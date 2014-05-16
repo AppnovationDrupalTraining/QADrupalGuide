@@ -10,9 +10,9 @@
 function text_profles_wysiwyg_default_profiles() {
   $profiles = array();
 
-  // Exported profile: plain_text
-  $profiles['plain_text'] = array(
-    'format' => 'plain_text',
+  // Exported profile: full_html
+  $profiles['full_html'] = array(
+    'format' => 'full_html',
     'editor' => 'ckeditor',
     'settings' => array(
       'default' => 1,
@@ -34,20 +34,11 @@ function text_profles_wysiwyg_default_profiles() {
           'Link' => 1,
           'Unlink' => 1,
           'Image' => 1,
-          'TextColor' => 1,
-          'BGColor' => 1,
           'Superscript' => 1,
           'Subscript' => 1,
-          'Blockquote' => 1,
-          'Source' => 1,
-          'HorizontalRule' => 1,
           'Font' => 1,
           'FontSize' => 1,
           'Styles' => 1,
-          'Table' => 1,
-          'Flash' => 1,
-          'Iframe' => 1,
-          'Maximize' => 1,
         ),
       ),
       'toolbar_loc' => 'top',

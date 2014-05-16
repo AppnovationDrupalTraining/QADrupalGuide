@@ -1,5 +1,7 @@
 <?php
 /**
  * @file
- * Drupal needs this blank file.
+ * Code for the QA Feature feature.
  */
+
+include_once 'text_profles.features.inc';
