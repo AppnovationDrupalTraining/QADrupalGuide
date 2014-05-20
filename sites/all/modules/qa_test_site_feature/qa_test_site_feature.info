@@ -1,4 +1,4 @@
-name = qa_test_site_feature
+name = QA Test Site Feature
 description = Feature containing all of the sites default settings
 core = 7.x
 package = Features
