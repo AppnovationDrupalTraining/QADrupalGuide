@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the QA Feature feature.
- */
-
-include_once 'text_profles.features.inc';
